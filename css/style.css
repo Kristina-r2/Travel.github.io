@@ -1,0 +1,300 @@
+* {margin: 0;
+    padding: 0;}
+html, body { 
+    width: 100%; 
+    overflow-x: hidden;}
+body {background: url("../img/bi_2.png") no-repeat;
+    background-size: cover;
+    height: 100%;}
+
+@font-face {
+        font-family: 'Droid Serif Regular';
+        src: url(../fonts/DroidSerif.ttf);        
+        font-style: normal; 
+        }
+        
+ @font-face {
+        font-family: 'Raleway Bold';
+        src: url('../fonts/Raleway-Bold.ttf');       
+        font-weight: normal;
+        font-style: normal;
+        }
+
+.wrapper {margin: 0 auto;
+        max-width: 1300px;
+        height: 100%;}
+
+header {width: 900px;
+    height: 450px;
+    border:6px solid #AD7835;
+    display: block;
+    margin: 0 auto;
+    margin-top: 173px;
+}
+
+h1 {font-family: 'Droid Serif Regular';
+    font-size: 100px;
+    font-weight: bold;
+    padding: 0 200px 2px 200px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+h2.gallery {font-family: 'Droid Serif Regular';
+    font-size: 30px;
+    font-weight: 100;
+    color: #AD7835;
+}
+h4.top_white {font-family: 'Raleway Bold';
+    font-size: 16px;
+    padding-top: 130px;
+    color: #FFFFFF;
+    text-align: center;}
+span {border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 8px;} 
+
+h4 {font-family: 'Raleway Bold';
+    color: #AC752F;
+    font-size: 16px;
+    text-align: center;}
+
+h2.about {font-family: 'Droid Serif Regular';
+    font-size:30px;
+    font-weight: 100;
+    color: #AD7835;
+    padding: 56px 0 0 70px ;
+}
+ h2.about::after {
+    content: "";
+    border-bottom: 2px solid #AD7835;
+    display: block;
+    width: 50px;
+}
+ h2.gallery::after {
+    content: "";
+    border-bottom: 2px solid #AD7835;
+    display: block;
+    width: 50px;
+}
+section.about_me {position: relative;
+margin-top: 225px;}
+.block_g {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 350px ;
+    background-color: #373737;
+position: relative;}
+
+img.photo {width: 380px;
+    height: 480px;
+    position: absolute;
+    /*margin-top: -440px;
+    margin-left: 728px;*/right: 20px;
+top:-44px;}
+
+
+.text_photo {padding: 40px 0px 34px 70px;}
+
+p {font-size: 16px;
+color: #FFFFFF;}
+
+button.read_more {font-family: 'Raleway Bold';
+    font-size: 14px;
+font-weight: bold;
+color: #AD7835 ;
+padding: 17px 40px;
+margin-left: 70px;
+border: 1px solid #AD7835;
+/*background-color:#373737;*/
+background-color: rgba(0, 0, 0, 0);}
+
+.last_art {
+   position: relative;
+   margin-top: 225px;}
+    
+    .art {width:100%;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:100px 0;
+}
+.last_art h2 {font-family: 'Droid Serif Regular';
+    text-align: center;
+font-size: 30px;
+font-weight: 100;
+color: #AD7835;}
+.block {width: 350px;
+    height: 510px;
+} 
+.grey_block.vulture {position: absolute;
+    width: 320px;
+    height: 220px;
+    background-color:#373737; 
+}
+.last_art img {width: 320px;
+    height: 220px;}
+
+img.vulture {
+    position: relative;
+    top: 30px;
+    left: 30px;}
+
+.block h4 {
+    padding: 46px 0 15px 0;
+    text-align: start;}
+
+.block h4::after { content: "";
+    border-bottom: 1px solid #AD7835;
+    display: inline-block;
+    width: 355px;
+    vertical-align: middle;   
+    }
+
+.block p {padding-bottom: 25px;}
+
+.block .read_more_art {
+    color:#AD7835 ;
+    font-size: 16px;
+    font-weight: bold;
+    background-color:#1C1C1C;
+    border: 1px solid #1C1C1C;}
+
+.block .read_more_art::after {content:'\003E'}
+ .meadow {padding: 80px 0 0 0;}
+section.gallery {margin-top: 225px;}
+ .container_img{ display: inline-block;
+
+}
+.flex-container {display: flex;
+    position: relative;   
+}
+
+.container_img{ 
+    flex-direction: column;
+width: 442px;}
+.img_top{flex-direction: row;
+    position: absolute;
+    margin-top: -1000px;
+    margin-left: 470px;
+   
+}
+.img_center {position: absolute;
+    margin-top: -620px;
+    margin-left: 470px;
+}
+.img_bottom {flex-direction: row;
+    margin-left: 450px;
+margin-top: -270px;}
+
+
+
+
+
+
+img.one {padding: 100px 30px 30px 70px;
+width: 370px;
+height: 350px;}
+img.two {padding: 0 30px 90px 0; 
+width:370px;
+height: 350px; }
+img.three {
+    padding: 50px 40px 90px 0px; 
+    width:350px;
+    height: 200px;}
+img.four {padding: 0 30px 0 0; 
+    width: 442px;
+    height: 558px;}
+img.five {padding: 0 0 200px 0;
+    width: 800px;
+    height: 350px;}
+img.six {padding:30px 30px 0 30px ;
+        width: 370px;
+        height: 350px;
+    }
+img.seven {padding: 0 40px 150px 0; 
+    width:350px;
+    height: 200px;}
+button.show  {font-family: 'Raleway Bold';
+    display: block;
+    margin: 0 auto;
+    margin-top: 93px;
+    font-size: 16px; 
+    color: #AD7835;
+border: 1px solid #AD7835;
+padding: 15px 40px;
+background-color: rgba(0, 0, 0, 0);
+}
+ section.contact{position: relative;
+        margin-top: 225px;
+        }
+
+h2.contact {font-family: 'Droid Serif Regular';
+    font-size:30px;
+    font-weight: 100;
+    color: #AD7835;
+    padding-top: 56px;
+}
+
+h2.contact {
+    content: "";
+    border-bottom: 2px solid #AD7835;
+    display: block;
+    width: 50px;
+}
+.form_right { position: absolute;
+    margin-left: 450px;
+} 
+
+
+input {
+    margin-top: 35px;
+    padding: 10px;
+background-color:#373737;
+border: none;
+border-bottom: 1px solid #707070;
+color: #FFFFFF;
+}
+
+button.message {   font-family: 'Raleway Bold';
+    margin: 50px 0 40px;
+    font-size: 14px; 
+    color: #AD7835;
+    border: 1px solid #AD7835;
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 0, 0);} 
+
+   
+    
+        
+        img.book {width: 380px;
+            height: 480px;
+            position: absolute;
+            left: 20px;      
+            top:-44px;}
+
+
+
+footer {width: 100%;
+    height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;}
+    
+    footer img {
+        border: 1px solid#AD7835;
+        padding: 15px 20px;
+        margin-right: 15px;
+    }
+    img.fb {width: 10px;
+    height: 20px;}
+    img.twit {width: 20px;
+    height: 20px;}
+    img.insta {width: 20px;
+    height: 20px;}
+    img.pin {width: 15px;
+        height: 20px;}
+
+@media (max-width: 1324px) {
+    section.gallery {display: none;}
+}
